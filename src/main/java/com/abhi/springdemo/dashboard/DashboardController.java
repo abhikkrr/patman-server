@@ -20,6 +20,7 @@ public class DashboardController {
 		/* 12345*/
 		
 		/* for testing purpose */
+		/*working of pull */
 	}
 
 }
