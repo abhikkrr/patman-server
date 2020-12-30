@@ -16,9 +16,7 @@ public class DashboardController {
 		ResponseEntity<List<String>> responseEntity = new ResponseEntity<List<String>>(list,HttpStatus.OK);
 		return responseEntity;
 		
-/*for learning*/
-/*comment by apurva*/ 
-		
+
 	}
 
 }
