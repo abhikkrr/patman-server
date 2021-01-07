@@ -1,3 +1,4 @@
+//updated by Rakesh;
 package com.abhi.springdemo.dashboard;
 
 import java.util.ArrayList;
@@ -16,11 +17,7 @@ public class DashboardController {
 		ResponseEntity<List<String>> responseEntity = new ResponseEntity<List<String>>(list,HttpStatus.OK);
 		return responseEntity;
 		
-/*for learning*/
-		/* 12345*/
-		
-		/* for testing purpose */
-		/*working of pull */
+
 	}
 
 }
