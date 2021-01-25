@@ -13,8 +13,7 @@ public class RegistrationEntity {
 	@Id
 	@Column(name= "patient_id")
 	int id;
-	
-	
+
 	@Column
 	String first_name;
 	
