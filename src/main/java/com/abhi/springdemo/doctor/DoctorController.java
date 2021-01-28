@@ -6,7 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.EntityNotFoundException;
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -35,7 +34,7 @@ public class DoctorController {
     }
 
     @PostMapping(path = "/doctors")
-    public ResponseEntity<?> addEntity(@Valid @RequestBody DoctorEntity entity){
+    public ResponseEntity<?> addEntity(@RequestBody DoctorEntity entity){
         ResponseEntity<DoctorEntity> responseEntity = new ResponseEntity<DoctorEntity>(doctorServic.addEntity(entity), HttpStatus.CREATED);
         return responseEntity;
     }
